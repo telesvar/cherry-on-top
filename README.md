@@ -27,3 +27,8 @@ How:
 Problems:
 1. Tag laundering: memory access checked is bypassed through custom tagging assignment and `TAG_DEFAULT`.  See `test_control_flow_hijack` for details.
 2. More to come.
+
+### Sources
+* RISC-V ISA Specifications – https://lf-riscv.atlassian.net/wiki/spaces/HOME/pages/16154769/RISC-V+Technical+Specifications#ISA-Specifications
+* Arm memory tagging extension – https://source.android.com/docs/security/test/memory-safety/arm-mte
+* Introduction to the Memory Tagging Extension – https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension
